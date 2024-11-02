@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="file" id="file">
+        <select name="" id="" onchange="Cambio(event)">
+            <option value="" selected></option>
+            <option value="mod1">Regresion lineal</option>
+            <option value="mod2">Regresion polinomial</option>
+        </select>
+        <button class="view" onclick="Gr()">Mostrar graficas</button>
+
+    </div>
+    <main>
+        <p id="log"></p>
+        <table style="text-align: center" id="table">
+        </table>
+        <div id="chart_div" style="width: 900px; height: 500px;"></div>
+    </main>
+
+    <script type="text/javascript" src="./tytusjs/dist/tytus.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

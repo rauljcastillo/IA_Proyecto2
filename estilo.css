@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    background-color: #707b7c;
+    height: 10%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.container select {
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+ .view {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: #000000;
+    color: white;
+ }
+
+
+ table,
+ th,
+ td {
+    border: 1px solid black;
+ }
